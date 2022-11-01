@@ -55,12 +55,13 @@ hr {
        <form action="http://localhost:5000/login" method="POST">
          <table>
           
-          <label for="name"><b> Name</b> </label>
-          <input type="text" placeholder="Enter Your Name" name="name" required>
-          <label for="email"><b>Email</b></label>  
-          <input type="text" placeholder="Enter Your Email" name="email" required>
-          <label for="Phone Number"><b>Phone Number</b></label>
-          <input type="text" placeholder="Enter Your Number" name="phone number" required>
+          <label for="name" class="form-label"><b> Name</b> </label>
+          <input type="text"class="form-control" id="name " name="name" placeholder="Enter Your Name" name="name" required>
+          <label for="email"class="form-label"><b>Email</b></label>  
+          <input type="text"  class="form-control" name="email"
+          id="exampleInputEmail1"placeholder="Enter Your Email" name="email" required>
+          <label for="Phone Number"class="form-label"><b>Phone Number</b></label>
+          <input type="text"class="form-control" name="phone" id="phone" placeholder="Enter Your Number" name="phone number" required>
          <button type="submit" class="registerbtn">Register</button>    
 
        </form>
